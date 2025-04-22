@@ -1,0 +1,26 @@
+Eric Ferland
+11 Maria Jane Rd
+New Hampton, NH 03256
+(603) 707-4630
+itferland@gmail.com
+
+
+-------------------
+
+Dear Hiring Committee at The Apache Software Foundation,
+
+I am writing to express my keen interest in the ASF Infrastructure Sysadmin position that is currently open. With over fifteen years of experience in IT, I am confident that my expertise in Google Workspace, Veeam, FortiGate, SentinelOne, and Okta, coupled with my focus on security, backups, device management, and automation, would make me a valuable addition to your team.
+
+Throughout my career, I have honed my skills in system administration, network operations, and IT project management. I have a proven track record of successfully implementing and managing IT infrastructure solutions that enhance operational efficiency, improve security posture, and drive business growth. My ability to adapt to new technologies and environments quickly has enabled me to deliver results consistently.
+
+In my current role, I have been responsible for the management and maintenance of Google Workspace, ensuring seamless collaboration and productivity for a large workforce. I have also implemented and managed Veeam for our backup solutions, ensuring data integrity and disaster recovery readiness. My expertise in FortiGate has enabled me to secure our network infrastructure effectively against cyber threats, while my proficiency in SentinelOne and Okta has allowed me to manage endpoint security and device management respectively.
+
+I am particularly attracted to The Apache Software Foundation because of its commitment to open collaboration and open source development. I believe that my focus on security, backups, device management, and automation aligns perfectly with the foundation's mission to promote a robust and secure open source ecosystem. I am excited about the opportunity to contribute to such an esteemed organization and look forward to leveraging my skills to support its ongoing success.
+
+I am eager to further discuss how my qualifications and experience would benefit The Apache Software Foundation as your ASF Infrastructure Sysadmin. I am available at your earliest convenience for a telephone interview or in-person meeting, whichever is more convenient for you. Thank you for considering my application, and I look forward to the possibility of working with you.
+
+Sincerely,
+Eric Ferland
+
+Sincerely,
+Eric Ferland

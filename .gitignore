@@ -1,0 +1,4 @@
+﻿.env
+gspread-creds.json
+job_log_fallback.csv
+__pycache__/

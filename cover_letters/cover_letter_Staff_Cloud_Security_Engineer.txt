@@ -1,0 +1,23 @@
+Eric Ferland
+11 Maria Jane Rd
+New Hampton, NH 03256
+(603) 707-4630
+itferland@gmail.com
+
+Dear Hiring Manager,
+
+I am writing to apply for the position of Staff Cloud Security Engineer at Ro. With over 15 years of experience in the IT field, I bring a strong background in cloud security, focusing primarily on security, backups, device management, and automation.
+
+Throughout my career, I have honed my skills working with various technologies including Google Workspace, Veeam, FortiGate, SentinelOne, and Okta. My expertise has been instrumental in securing critical infrastructure, ensuring data protection, and implementing efficient device management solutions.
+
+In my most recent role, I successfully led a team responsible for cloud security and automation. We implemented multi-factor authentication across all systems, improved our disaster recovery plan, and automated several key processes to reduce manual work and increase efficiency.
+
+I am excited about the opportunity to bring my unique blend of skills and experiences to Ro, contributing to your ongoing efforts in maintaining a secure and robust cloud infrastructure. I look forward to discussing how my background aligns with the needs of this role and Ro's mission during an interview.
+
+Thank you for considering my application. I am eager to further discuss how I can contribute to your team.
+
+Sincerely,
+[Your Name]
+
+Sincerely,
+Eric Ferland
