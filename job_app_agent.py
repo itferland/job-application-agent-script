@@ -1,12 +1,13 @@
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import os
+
 
 def fetch_remoteok_jobs(keyword):
     url = f"https://remoteok.com/remote-{keyword.replace(' ', '-')}-jobs"
@@ -25,22 +26,24 @@ def fetch_remoteok_jobs(keyword):
 
     return jobs
 
+
 def fetch_wwr_jobs(keyword):
     options = Options()
     options.add_argument("--headless=new")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--user-agent=Mozilla/5.0")
-    options.binary_location = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
-    service = Service("C:/tools/chromedriver.exe")
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    url = f"https://weworkremotely.com/remote-jobs/search?term={keyword.replace(' ', '+')}"
+    base_url = "https://weworkremotely.com/remote-jobs/search?term="
+    search_term = keyword.replace(' ', '+')
+    url = base_url + search_term
 
     jobs = set()
     try:
         driver.get(url)
+        locator = (By.CSS_SELECTOR, "section.jobs")
         WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "section.jobs"))
+            EC.presence_of_element_located(locator)
         )
         soup = BeautifulSoup(driver.page_source, "html.parser")
         job_sections = soup.select("section.jobs li:not(.view-all)")
@@ -60,6 +63,7 @@ def fetch_wwr_jobs(keyword):
         driver.quit()
 
     return jobs
+
 
 def main():
     print("💡 Script started")
@@ -91,6 +95,7 @@ def main():
 🏢 Company: {company}
 🔗 URL: {link}
 """)
+
 
 if __name__ == "__main__":
     main()
